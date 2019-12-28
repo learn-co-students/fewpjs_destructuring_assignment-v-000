@@ -29,13 +29,50 @@ const k_muppet = {
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
 
+// expect(moo).to.equal("cow")
+// expect(neigh).to.equal("horse")
+// expect(baa).to.equal("sheep")
+// expect(oink).to.equal("pig")
+// expect(cluck).to.equal("chicken")
+// use .split because there are spaces in the farmAnimals string
+const [moo, neigh, baa, oink, cluck] = farmAnimals.split(' ');
+
+
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
+const Bessie = moo;
+const Dolly = baa;
+const Babe = oink;
+const Little = cluck;
+
+// expect(Bessie).to.equal("cow")
+// expect(Dolly).to.equal("sheep")
+// expect(Babe).to.equal("pig")
+// expect(Little).to.equal("chicken")
+
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
+const black_and_white = moo;
+const black = baa;
+const pink = oink;
+
+// expect(black_and_white).to.equal("cow")
+// expect(black).to.equal("sheep")
+// expect(pink).to.equal("pig")
+
 
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
+const [r, o, y, g, b, i, v] = colors
+const red = r;
+const orange = o;
+const yellow = y;
+const green = g;
+const blue = b;
+const indg = i;
+const violet = v;
+
+const indigo = indg;
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
 
@@ -44,6 +81,16 @@ const k_muppet = {
 // Objects
 
 // 7. Use destructuring to assign all appropriate variables using the keys as the variable names
-
+// const muppet = {
+//   name: 'Kermit',
+//   color: 'green',
+//   song: 'The Rainbow Connection',
+//   job: 'Host of The Muppet Show',
+//   partner: 'Miss Piggy'
+// };
+const {name, color, song, job, partner} = muppet;
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+const {song_2, song_4} = k_muppet.k_album.the_muppet_movie;
+const {k_color, k_job, k_partner } = k_muppet;
+
