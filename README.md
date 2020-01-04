@@ -6,6 +6,7 @@
 
 ## Introduction
 
+
 As developers, sometimes we receive information in a collection like an
 `Object` and we want to "pick and choose" elements out of the collection. It's
 a major pain to extract each property / value pair out of an `Object` and then
@@ -55,8 +56,8 @@ const doggie = {
 };
 
 const { first, breed } = doggie;
-console.log(first); 
-console.log(breed); 
+console.log(first);
+console.log(breed);
 
 ```
 
@@ -80,15 +81,15 @@ const doggie = {
 };
 
 const { ham, hot_dog } = doggie.favorite_foods.meats;
-console.log(ham); 
-console.log(hot_dog); 
+console.log(ham);
+console.log(hot_dog);
 
 ```
 
 ### Destructuring Assignment with Arrays
 
 Destructuring does not just work on objects - we can also use the same syntax
-with `Array`s as well. 
+with `Array`s as well.
 
 ```js
 
@@ -115,7 +116,7 @@ const [title, firstName, lastName] = 'Sir Woody BarksALot'.split(' ')
 console.log(title, firstName, lastName) // Sir Woody BarksALot
 ```
 
-And we can also destructure it in parts, just as we did with `Array`s above: 
+And we can also destructure it in parts, just as we did with `Array`s above:
 
 ```js
 const dogsName = 'Sir Woody BarksALot'
@@ -128,7 +129,7 @@ console.log(title, lastName) // Sir BarksALot
 We are going to give you several `String`s, `Array`s, and `Object`s and you're
 going to write several destructuring assignments for each. Write your code in
 the `index.js` file. Let the instructions in the README and the tests guide you
-through the process. 
+through the process.
 
 ## Conclusion
 
@@ -136,7 +137,7 @@ through the process.
 variables from objects, `Array`s, and strings. It allows us to pick and choose the
 pieces of data that we want to assign, and gives us lots of freedom to
 manipulate the data as it is coming in. With practice, you'll be proficient at
-it in no time. 
+it in no time.
 
 ## Resources
 
