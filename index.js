@@ -1,6 +1,16 @@
 const farmAnimals = 'cow horse sheep pig chicken'
 
+const [moo, neigh, baa, oink, cluck] = farmAnimals.split(' ')
+const [Bessie, ,Dolly, Babe, Little] = farmAnimals.split(' ')
+const [black_and_white, ,black,pink, ,] = farmAnimals.split(' ')
+
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+const [red,orange,yellow,green,blue,indigo,violet] = colors
+
+const [r,o,y,g,b,,v] = colors
+
+const indg = colors[5]
 
 const muppet = {
   name: 'Kermit',
@@ -25,6 +35,15 @@ const k_muppet = {
   k_partner: 'Miss Piggy'
 };
 
+const name = k_muppet.k_name
+const color = k_muppet.k_color
+const song = 'The' + ' ' + k_muppet.k_album.the_muppet_movie.song_1
+const job = k_muppet.k_job
+const partner = k_muppet.k_partner
+
+const {song_2,song_4} = k_muppet.k_album.the_muppet_movie
+const {k_job, k_partner} = k_muppet
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
@@ -39,7 +58,7 @@ const k_muppet = {
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
 
-// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
+// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
 
 // Objects
 
