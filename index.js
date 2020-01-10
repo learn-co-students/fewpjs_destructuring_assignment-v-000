@@ -8,6 +8,10 @@ const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
 const [red,orange,yellow,green,blue,indigo,violet] = colors
 
+const [r,o,y,g,b,,v] = colors
+
+const indg = colors[5]
+
 const muppet = {
   name: 'Kermit',
   color: 'green',
@@ -30,6 +34,15 @@ const k_muppet = {
   k_job: 'Host of The Muppet Show',
   k_partner: 'Miss Piggy'
 };
+
+const name = k_muppet.k_name
+const color = k_muppet.k_color
+const song = 'The' + ' ' + k_muppet.k_album.the_muppet_movie.song_1
+const job = k_muppet.k_job
+const partner = k_muppet.k_partner
+
+const {song_2,song_4} = k_muppet.k_album.the_muppet_movie
+const {k_job, k_partner} = k_muppet
 
 // Strings
 
