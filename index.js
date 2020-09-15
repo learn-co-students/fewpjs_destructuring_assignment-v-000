@@ -10,6 +10,7 @@ const muppet = {
   partner: 'Miss Piggy'
 };
 
+
 const k_muppet = {
   k_name: 'Kermit',
   k_color: 'green',
