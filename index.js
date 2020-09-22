@@ -26,6 +26,9 @@ const k_muppet = {
   k_partner: 'Miss Piggy'
 };
 
+
+
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
