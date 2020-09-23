@@ -1,6 +1,18 @@
-const farmAnimals = 'cow horse sheep pig chicken'
+const farmAnimals = ['cow', 'horse', 'sheep', 'pig', 'chicken']
+const [moo, neigh, baa, oink, cluck] = farmAnimals 
+const [Bessie, ,Dolly, Babe, Little] = farmAnimals 
+const [black_and_white, , black, pink,] = farmAnimals 
+// const animals = {
+//   animal: "dog",
+//   sound: "moo",
+//   name: "bob",
+//   color: "brown"
+// };
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+const [red, orange, yellow, green, blue, indigo, violet] = colors
+const [r, o, y, g, b, , v] = colors
+const [ , , , , ,indg, ] = colors
 
 const muppet = {
   name: 'Kermit',
@@ -9,6 +21,8 @@ const muppet = {
   job: 'Host of The Muppet Show',
   partner: 'Miss Piggy'
 };
+
+const { name, color, song, job, partner } = muppet;
 
 const k_muppet = {
   k_name: 'Kermit',
@@ -24,6 +38,9 @@ const k_muppet = {
   k_job: 'Host of The Muppet Show',
   k_partner: 'Miss Piggy'
 };
+
+const { song_2, song_4} = k_muppet.k_album.the_muppet_movie;
+const { k_job, k_partner } = k_muppet
 
 // Strings
 
