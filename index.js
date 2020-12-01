@@ -1,6 +1,18 @@
 const farmAnimals = 'cow horse sheep pig chicken'
+const [moo, neigh, baa, oink, cluck] = 'cow horse sheep pig chicken'.split(' ')
+console.log(moo, neigh, baa, oink, cluck)
+const [Bessie,  , Dolly, Babe, Little] = 'cow horse sheep pig chicken'.split(' ')
+console.log(Bessie, Dolly, Babe, Little)
+const [black_and_white,  , black, pink, ] = 'cow horse sheep pig chicken'.split(' ')
+console.log(black_and_white, black, pink)
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+const [red, orange, yellow, green, blue, indigo, violet] = colors
+console.log(red, orange, yellow, green, blue, indigo, violet)
+const [r, o, y, g, b,  , v] = colors
+console.log(r, o, y, g, b, v)
+const [ ,  ,  ,  ,  , indg,  ] = colors
+console.log(indg)
 
 const muppet = {
   name: 'Kermit',
@@ -9,6 +21,14 @@ const muppet = {
   job: 'Host of The Muppet Show',
   partner: 'Miss Piggy'
 };
+const {
+  name, color, song, job, partner
+} = muppet
+console.log(name)
+console.log(color)
+console.log(song)
+console.log(job)
+console.log(partner)
 
 const k_muppet = {
   k_name: 'Kermit',
@@ -24,6 +44,17 @@ const k_muppet = {
   k_job: 'Host of The Muppet Show',
   k_partner: 'Miss Piggy'
 };
+const {
+ k_color, k_job, k_partner
+} = k_muppet;
+console.log(k_color);
+console.log(k_job);
+console.log(k_partner);
+const {
+  song_2, song_4
+} = k_muppet.k_album.the_muppet_movie;
+console.log(song_2);
+console.log(song_4);
 
 // Strings
 
