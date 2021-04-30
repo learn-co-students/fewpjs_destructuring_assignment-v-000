@@ -25,11 +25,23 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+const{song2, song4}= nestedMuppet.album.theMuppetMovie
+const  {nestedJob,nestedPartner}= nestedMuppet
 
-
+//1
+const [moo, neigh, baa, oink, cluck] = 'cow horse sheep pig chicken'.split(" ")
+//2
+const [bessie, , dolly, babe, little ] = 'cow horse sheep pig chicken'.split(" ") //this doesn't work -> farmAnimals.split(" ")
+//3
+const [blackAndWhite, , black, pink] = 'cow horse sheep pig chicken'.split(" ")
+//4
 const[red, orange, yellow, green, blue, indigo, violet]= colors;
-
-
+//5
+const[r, o, y, g, b, , v]= colors;
+//6
+const[, , , , , indg , ]= colors;
+//7
+const{muppetName,color,song, job, partner}= muppet
 
 
 // Strings
