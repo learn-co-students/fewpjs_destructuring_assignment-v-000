@@ -25,8 +25,7 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
-const{song2, song4}= nestedMuppet.album.theMuppetMovie
-const  {nestedJob,nestedPartner}= nestedMuppet
+
 
 //1
 const [moo, neigh, baa, oink, cluck] = 'cow horse sheep pig chicken'.split(" ")
@@ -42,7 +41,9 @@ const[r, o, y, g, b, , v]= colors;
 const[, , , , , indg , ]= colors;
 //7
 const{muppetName,color,song, job, partner}= muppet
-
+//8
+const{song2, song4}= nestedMuppet.album.theMuppetMovie
+const  {nestedJob,nestedPartner}= nestedMuppet
 
 // Strings
 
