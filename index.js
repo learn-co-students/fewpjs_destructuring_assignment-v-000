@@ -25,6 +25,26 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
+
+
+//1
+const [moo, neigh, baa, oink, cluck] = 'cow horse sheep pig chicken'.split(" ")
+//2
+const [bessie, , dolly, babe, little ] = 'cow horse sheep pig chicken'.split(" ") //this doesn't work -> farmAnimals.split(" ")
+//3
+const [blackAndWhite, , black, pink] = 'cow horse sheep pig chicken'.split(" ")
+//4
+const[red, orange, yellow, green, blue, indigo, violet]= colors;
+//5
+const[r, o, y, g, b, , v]= colors;
+//6
+const[, , , , , indg , ]= colors;
+//7
+const{muppetName,color,song, job, partner}= muppet
+//8
+const{song2, song4}= nestedMuppet.album.theMuppetMovie
+const  {nestedJob,nestedPartner}= nestedMuppet
+
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
@@ -39,7 +59,7 @@ const nestedMuppet = {
 
 // 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
 
-// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
+// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
 
 // Objects
 
